@@ -1,6 +1,6 @@
-#include "CombatEsc_Events.h"
-#include "CombatEsc_DataHandler.h"
-#include "CombatEsc_Functinos.h"
+#include "CombatEsc_Events.hpp"
+#include "CombatEsc_DataHandler.hpp"
+#include "CombatEsc_Functinos.hpp"
 
 namespace MaxsuCombatEscape
 {

@@ -1,5 +1,5 @@
-#include "CombatEsc_DataHandler.h"
-#include "CombatEsc_LoadGameFunc.h"
+#include "CombatEsc_DataHandler.hpp"
+#include "CombatEsc_LoadGameFunc.hpp"
 
 namespace MaxsuCombatEscape
 {

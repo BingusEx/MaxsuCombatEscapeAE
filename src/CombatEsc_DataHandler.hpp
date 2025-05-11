@@ -1,7 +1,7 @@
 #pragma once
-#include "CombatEsc_Events.h"
-#include "CombatEsc_Functinos.h"
-#include "CombatEsc_LoadGameFunc.h"
+#include "CombatEsc_Events.hpp"
+#include "CombatEsc_Functinos.hpp"
+#include "CombatEsc_LoadGameFunc.hpp"
 
 namespace MaxsuCombatEscape
 {

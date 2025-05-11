@@ -1,21 +1,21 @@
 {
-    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
-    "name": "commonlibsse-plugin",
-    "version-string": "1.0.0",
-    "port-version": 0,
-    "description": "SKSE plugin based on CommonLibSSE, for unified AE/SE/VR deployment.",
-    "homepage": "https://www.skyrimng.com",
-    "license": "Apache-2.0",
-    "features": {
-        "plugin": {
-            "description": "Build the SKSE plugin.",
-          "dependencies": [
-            "commonlibsse-ng-flatrim",
-            "rsm-binary-io"
-          ]
-        }
-    },
-    "default-features": [
-        "plugin"
-    ]
+  "name": "maxsucombatescape",
+  "features": {
+    "plugin": {
+      "description": "Build the SKSE plugin.",
+      "dependencies": [
+        "xbyak",
+        "catch2",
+        "fmt",
+        "directxtk",
+        "rapidcsv",
+        "spdlog",
+        "rsm-binary-io",
+        "nlohmann-json",
+        "gluino",
+        "clib-util"
+      ]
+    }
+  },
+  "default-features": ["plugin"]
 }
